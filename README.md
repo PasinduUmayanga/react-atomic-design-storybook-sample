@@ -2,7 +2,7 @@
 
 A small React sample built to **learn Storybook** through a real [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/) component hierarchy — atoms → molecules → organisms → templates → pages — styled with Tailwind CSS and backed by a proper automated test suite.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/<your-appveyor-project-id>?svg=true)](https://ci.appveyor.com/project/<your-appveyor-account>/react-atomic-design-storybook-sample)
+[![Build status](https://ci.appveyor.com/api/projects/status/0ghyp1se5likp6k4?svg=true)](https://ci.appveyor.com/project/Mahadenamuththa/react-atomic-design-storybook-sample)
 ![React](https://img.shields.io/badge/React-19.3-61DAFB?logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-6.0-3178C6?logo=typescript&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-8.3-646CFF?logo=vite&logoColor=white)
