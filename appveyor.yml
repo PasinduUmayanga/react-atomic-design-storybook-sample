@@ -1,0 +1,24 @@
+image: Ubuntu2204
+
+environment:
+  nodejs_version: "22"
+
+cache:
+  - node_modules -> package-lock.json
+  - ~/.npm -> package-lock.json
+
+install:
+  - nvm install $nodejs_version
+  - nvm use $nodejs_version
+  - node --version
+  - npm --version
+  - npm ci
+
+build_script:
+  - npm run build
+  - npm run build-storybook
+
+test_script:
+  - npm run test:coverage
+
+build: off
